@@ -1,6 +1,13 @@
 # Audio_Detection
 The objective of audio detection in online examinations is to maintain the integrity of the exam process and prevent cheating by ensuring that all candidates are evaluated based on their own knowledge and abilities.
 
+## Tools Used
+
+![Python Logo](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![mysql-Logo](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+
+
 ## Introduction
 Proctoring in remote online examinations has evolved significantly with the implementation of video and audio detections to prevent malpractice by test takers. However, certain aspects of audio detection need improvement to ensure fairness and accuracy in online assessments. One critical issue is the immediate identification of any audio as malpractice without considering whether the sound indicates cheating or simply external noise beyond the test taker's control. This can lead to unjust consequences for test takers and negatively impact both the individuals taking the exam and the institutions conducting the assessments.
 
@@ -35,8 +42,7 @@ Before running the code, make sure you have the following dependencies installed
 - speech_recognition
 - Pillow (PIL)
 - mysql.connector
-- OpenCV (cv2)
-
+  
 You can install these dependencies using pip:
 ```bash
-pip install tkinter pillow SpeechRecognition mysql-connector-python opencv-python
+pip install tkinter pillow SpeechRecognition mysql-connector-python
